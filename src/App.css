@@ -1,0 +1,141 @@
+.home {
+  width: 100%;
+  height: 500px;
+  padding: 10px 7%;
+}
+
+.home .top h1 {
+  color: rgb(44, 114, 235);
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.home .tableform {
+  width: 1200px;
+  height: 400px;
+  box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
+  overflow: scroll;
+}
+
+.home .tableform tr {
+  display: grid;
+  grid-template-columns: 80px 150px 150px 270px 180px 260px;
+  grid-gap: 10px;
+  padding: 10px;
+
+}
+
+.home .tableform .tabletop {
+  width: 100%;
+  height: 60px;
+  font-size: 30px;
+  font-weight: 400;
+  margin: 10px 0px;
+  color: white;
+  background-color: rgb(44, 114, 235);
+  text-align: center;
+}
+
+.home .tableform .tabledown {
+  width: 100%;
+  height: 80px;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
+  padding: 25px 5px;
+}
+
+.home .tableform .tabledown button {
+  background-color:rgb(44, 114, 235);
+  margin: 5px 10px;
+  border: 1px solid rgb(44, 114, 235);
+  font-size: 15px;
+  border-radius: 10px;
+  padding: 5px;
+  width: 60px;
+}
+
+.view {
+  color: black;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.home .tableform .tabledown .edit {
+  background-color: transparent;
+  color: rgb(44, 114, 235);
+}
+
+.home .tableform .tabledown .delete {
+  background-color: red;
+  border: 1px solid red;
+  color: white;
+}
+
+.input form {
+  width: 600px;
+  height: 400px;
+  display: grid;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.input form input {
+  width: 450px;
+  height: 40px;
+  margin: 10px;
+  padding: 0px 10px;
+  box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
+  border: 1px solid transparent;
+}
+
+.input form button {
+  width: 120px;
+  height: 50px;
+  margin: 10px 30%;
+  background-color: rgb(44, 114, 235);
+  border: 1px solid rgb(44, 114, 235);
+  color: white;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.viewdata form {
+  width: 600px;
+  height: 400px;
+  display: grid;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.viewdata form input {
+  width: 450px;
+  height: 40px;
+  margin: 10px;
+  padding: 0px 10px;
+  box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
+  border: 1px solid transparent;
+}
+.headcount{
+  text-align: center;
+  color: rgb(44, 114, 235);
+}
+.back{
+  background-color: rgb(44, 114, 235);
+  border: 1px solid transparent;
+  color: white;
+  width: 130px;
+  height: 50px;
+}
+form{
+  
+}

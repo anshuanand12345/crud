@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    color: rgb(44, 114, 235);
+}
+form{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-gap: 30px;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+form input{
+    width: 350px;
+    align-items: center;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
+    border: 1px solid transparent;
+    height: 40px;
+}
+form button{
+width: 120px;
+    height: 50px;
+    margin: 10px 30%;
+    background-color: rgb(44, 114, 235);
+    border: 1px solid rgb(44, 114, 235);
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+}
